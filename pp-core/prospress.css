@@ -1,0 +1,115 @@
+/*
+LAYOUT: Two columns
+-------------------------------------------------------------- */
+.prospress-container{
+	float: left;
+	width: 100%;
+}
+.prospress-content{
+	/*margin:0 260px 0 10px;*/
+}
+
+/*
+Index & Single Page Layouts
+-------------------------------------------------------------- */
+.pp-title{
+	clear:none;
+}
+.pp-post{
+	float:left;
+	width:100%;
+	clear:both;
+	border-bottom: 1px solid #ccc;
+	margin: 12px 5px 5px;
+	padding-bottom:1em;
+	display:block;
+}
+.pp-post-content{
+	float:left;
+	width:100%;
+}
+.prospress-content{
+	clear:both;
+}
+.pp-price,.pp-end{
+	float:right;
+	margin:2px;
+	text-align:center;
+	font-size:0.85em;
+	width:15%;
+	height:7em;
+}
+.price-header,.end-header{
+	float:right;
+	width:14%;
+	margin:2px 5px 0;
+	text-align:center;
+	font-weight:bold;
+	font-size:1.1em;
+}
+.pp-publish-details{
+	font-size:0.8em;
+}
+.pp-content{
+	clear:both;
+}
+.pp-publish-date,.pp-end-date,.pp-author,.pp-author-feedback{
+	float:left;
+	clear:both;
+	margin: 0.5em 0;
+}
+
+/* Sidebar & Widget Styles 
+-------------------------------------------------------------- */
+.prospress-sidebar{
+	float: right;
+	overflow: hidden;
+	width: 220px;
+	padding-left: 15px;
+	border-left: 1px solid #ccc;
+}
+.prospress-sidebar ul {
+	margin-left: 0;
+	list-style-type: none;
+}
+.prospress-sidebar ul ul {
+	border: none;
+	margin-left: 1.3em;
+	padding: 0;
+}
+
+/* Navigation
+-------------------------------------------------------------- */
+.navigation {
+	font-size:  0.8em;
+	line-height: 1.5em;
+	overflow: hidden;
+	color: #888;
+}
+.navigation a:link,
+.navigation a:visited {
+	color: #888;
+	text-decoration: none;
+}
+.navigation a:active,
+.navigation a:hover {
+	color: #FF4B33;
+}
+.nav-index {
+	float: left;
+	width: 100%;
+	font-size: 1.2em;
+}
+
+/* Bid Form
+-------------------------------------------------------------- */
+.bid-container,.bid-form{
+	border:1px solid #ccc;
+	clear:both;
+	margin:1em 0; 
+	padding:1em;
+	background-color:#f6f6f6; 
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}

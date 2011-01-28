@@ -1,0 +1,33 @@
+#endtimestampdiv{
+	padding-top: 5px;
+}
+
+#endtimestampdiv input, #namediv input, #poststuff .inside .the-tagcloud {
+	border-color:#DDDDDD;
+}
+
+#endtimestampdiv input {
+	border-style:solid;
+	border-width:1px;
+}
+
+.curtime #endtimestamp{
+	background-image:url(../../../../wp-admin/images/date-button.gif);
+	background-position:left top;
+	background-repeat:no-repeat;
+	padding-left:18px;
+}
+
+#jje, #hhe, #mne {
+	font-size:12px;
+	padding:1px;
+	width:2em;
+}
+
+#poststuff #pp-submitdiv .inside {
+	margin:0;
+}
+
+.red {
+	color:#FF0000;
+}

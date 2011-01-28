@@ -1,0 +1,98 @@
+/* Dashboard Feedback */
+
+#dashboard_feedback p.sub,
+#dashboard_feedback .table, #dashboard_feedback .versions {
+	margin: -12px;
+}
+
+#dashboard_feedback .inside {
+	font-size: 12px;
+}
+
+#dashboard_feedback .sub {
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	padding: 5px 10px 15px;
+	color: #777;
+	font-size: 13px;
+}
+
+#dashboard_feedback .table {
+	background: #f9f9f9;
+	border-top: #ececec 1px solid;
+	border-bottom: #ececec 1px solid;
+	margin: 0 -9px 10px;
+	padding: 0 10px;
+}
+
+#dashboard_feedback table {
+	width: 100%;
+}
+
+#dashboard_feedback table  td {
+	border-top: #ececec 1px solid;
+	padding: 3px 0;
+	white-space: nowrap;
+}
+
+#dashboard_feedback table tr.first td {
+	border-top: none;
+}
+
+#dashboard_feedback td.b {
+	padding-right: 6px;
+	text-align: right;
+	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	font-size: 14px;
+}
+
+#dashboard_feedback td.b a {
+	font-size: 18px;
+}
+
+#dashboard_feedback td.b a:hover {
+	color: #d54e21;
+}
+
+#dashboard_feedback .t {
+	font-size: 12px;
+	padding-right: 12px;
+	padding-top: 6px;
+	color: #777;
+}
+
+#dashboard_feedback .t a {
+	white-space: nowrap;
+}
+
+#dashboard_feedback td.first,
+#dashboard_feedback td.last {
+	width: 1%;
+}
+
+#dashboard_feedback .spam {
+	color: red;
+}
+
+#dashboard_feedback .waiting {
+	color: #e66f00;
+}
+
+#dashboard_feedback .approved {
+	color: green;
+}
+
+#dashboard_feedback .versions {
+	padding: 6px 10px 12px;
+}
+
+#dashboard_feedback .versions .b {
+	font-weight: bold;
+}
+
+#dashboard_feedback a.button {
+	float: right;
+	clear: right;
+	position: relative;
+	top: -5px;
+}

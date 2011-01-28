@@ -1,0 +1,66 @@
+#icon-prospress{
+	background: url(../images/prospress35.png) no-repeat center transparent;
+}
+
+.taxonomies{
+	margin-top:10px;
+}
+
+.prospress-actions{
+	height: 2.5em;
+}
+
+.prospress-actions ul.actions-list,
+.completed-actions {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	border: 1px solid #ccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	}
+
+.prospress-actions ul.actions-list:hover,
+.completed-actions:hover {
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	}
+
+.prospress-actions ul.actions-list li,
+.completed-actions li {
+	margin: 0;
+	text-decoration: none;
+	padding: 4px 5px;
+	}
+
+.prospress-actions ul.actions-list li.base,
+.completed-actions li.base {
+	display: block;
+	text-decoration: none;
+	padding-right: 2.6em;
+	background: transparent url('../images/down-arrow.gif') no-repeat 95% center;
+	}
+
+.completed-actions:hover li {
+	}
+
+.prospress-actions ul.actions-list li.action,
+li.completed-action {
+	display: none;
+	background-color: #fff;
+	position: relative;
+	z-index: 2;
+	}
+
+.prospress-actions ul.actions-list:hover li.action,
+.completed-actions:hover li.completed-action {
+	display: block;
+	}
+
+/* Fix IE. \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */

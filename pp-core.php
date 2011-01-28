@@ -144,7 +144,6 @@ function pp_set_currency(){
 }
 add_action( 'init', 'pp_set_currency' );
 
-
 /** 
  * For displaying monetary numbers, it's important to transform the number to include the currency symbol and correct number of decimals. 
  * 
@@ -182,6 +181,7 @@ function pp_core_admin_head() {
 
 	if( strpos( $_SERVER['REQUEST_URI'], 'Prospress' ) !== false || strpos( $_SERVER['REQUEST_URI'], 'invoice_settings' ) !== false || strpos( $_SERVER['REQUEST_URI'], '_tax' ) !== false || strpos( $_SERVER['REQUEST_URI'], 'completed' ) !== false  || strpos( $_SERVER['REQUEST_URI'], 'bids' ) !== false )
 		wp_enqueue_style( 'prospress-admin',  PP_CORE_URL . '/prospress-admin.css' );
+		// wp_localize_script( 'pcf-ajax', 'wordpress', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 }
 add_action('admin_menu', 'pp_core_admin_head');
 
